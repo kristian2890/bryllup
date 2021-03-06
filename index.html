@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bryllup &mdash; SBJ & KJ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">	
+	
+
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    
+    
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="bryllup/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="bryllup/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="bryllup/css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="bryllup/css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="bryllup/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="bryllup/css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="bryllup/css/style.css">
+	
+
+	<!-- Modernizr JS -->
+	<script src="bryllup/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="{% url 'index' %}">Bryllup<strong>.</strong></a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="{% url 'index' %}">Forside</a></li>
+                        <li><a href="{% url 'bryllupsdagen' %}">Bryllupsdagen</a></li>
+                        <li><a  href="{% url 'bryllupsugen' %}">Bryllupsugen</a></li>
+						<li><a  href="{% url 'venue' %}">Villaen</a></li>
+						<li><a  href="{% url 'omraadet' %}">Området</a></li>
+                        <li><a  href="{% url 'praktisk' %}">Praktisk</a></li>
+                        <li><a  href="https://www.ønskeskyen.dk">Ønsker</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(bryllup/images/SarahTest1.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Sarah &amp; Kristian</h1>
+							<h2>Vi skal giftes om...</h2>
+							<div class="simply-countdown simply-countdown-one"></div>
+							<!--<p><a href="#" class="btn btn-default btn-sm">Gem datoen!</a></p>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-couple">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>Ciao!</h2>
+					<h3>26. maj 2022 i Toscana, Italien</h3>
+					<p>I er hermed inviteret til vores bryllup!</p>
+				</div>
+			</div>
+			<div class="couple-wrap animate-box">
+				<div class="couple-half">
+					<div class="groom">
+						<img src="bryllup/images/KJ.jpg" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-groom">
+						<h3>Kristian Jørgensen</h3>
+						<p>AKA Marathonman</p>
+					</div>
+				</div>
+				<p style ="height:40px;" class="heart text-center" id='hearID'> <img style ="height:40px;" id='hearIcon' src="https://purepng.com/public/uploads/large/heart-icon-jst.png">  <!--<i class="icon-heart2"></i> --> </p>
+				<div class="couple-half">
+					<div class="bride">
+						<img  src="bryllup/images/SBJ1.jpg" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-bride">
+						<h3>Sarah Buhl Jørgensen</h3>
+						<p>AKA Buhlemusen</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-gallery" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Information</span>
+					<h2>Bryllupsinfo</h2>
+					<p>Find yderligere info om bryllupsdagen, bryllupsugen, den italienske villa, området og vores ønskeseddel herunder.</p>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-12">
+					<ul id="fh5co-gallery-list">
+						
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(bryllup/images/finbryllup2.jpg); "> 
+						<a href="{% url 'bryllupsdagen' %}">
+							<div class="case-studies-summary">
+								<h2>Bryllupsdagen</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(bryllup/images/sapa3.jpg); ">
+						<a href="{% url 'bryllupsugen' %}" class="color-2">
+							<div class="case-studies-summary">
+								<h2>Bryllupsugen</h2>
+							</div>
+						</a>
+					</li>
+
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(bryllup/images/venue1.jpg); ">
+						<a href="{% url 'venue' %}" class="color-3">
+							<div class="case-studies-summary">
+								<h2>Villaen</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(bryllup/images/scooter.jpg); ">
+						<a href="{% url 'omraadet' %}" class="color-4">
+							<div class="case-studies-summary">
+								<h2>Området</h2>
+							</div>
+						</a>
+					</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(bryllup/images/praktisk.jpg); ">
+							<a href="{% url 'praktisk' %}" class="color-3">
+								<div class="case-studies-summary">
+									<h2>Praktisk Info</h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(bryllup/images/paris1.jpg); ">
+							<a href="https://www.ønskeskyen.dk" class="color-4">
+								<div class="case-studies-summary">
+									<h2>Ønsker</h2>
+								</div>
+							</a>
+						</li>
+					</ul>		
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-couple-story">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Øjeblikke</span>
+					<h2>Vores Historie</h2>
+					<p>+9 år sammen - her er vores største øjeblikke.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline animate-box">
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(bryllup/images/bork1.jpeg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Første Møde</h3>
+									<span class="date">4. august 2011</span>
+								</div>
+								<div class="timeline-body">
+									<p>Bork Havnefestival 2011 - Kærlighed og musik.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(bryllup/images/kaerester.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Kærester</h3>
+									<span class="date">11. december 2011</span>
+								</div>
+								<div class="timeline-body">
+									<p>Langt om længe...</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(bryllup/images/indflytning.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Vi flytter sammen</h3>
+									<span class="date">29. juni 2014</span>
+								</div>
+								<div class="timeline-body">
+									<p>Østerbro, here we come!</p>
+								</div>
+							</div>
+                        </li>
+                        <li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(bryllup/images/ringen1.jpeg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Forlovet</h3>
+									<span class="date">11. december 2020</span>
+								</div>
+								<div class="timeline-body">
+									<p>Midt i en Corona-tid</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<footer id="fh5co-footer" role="contentinfo" style="background-color: rgba(0, 0, 0, 0.04);">
+		<div class="container">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                <span>Arrivederci</span>
+                <h2>Vi Glæder os til at se jer</h2>
+                <p style="font-size:14px">Ræk ud til os, hvis I har spørgsmål eller forespørgsler til fx villaen, transport, mad etc.</p>
+		</div>
+	</footer>
+	</div>
+
+
+	
+	<!-- jQuery -->
+	<script src="bryllup/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="bryllup/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="bryllup/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="bryllup/js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="bryllup/js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="bryllup/js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="bryllup/js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="bryllup/js/jquery.magnific-popup.min.js"></script>
+	<script src="bryllup/js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="bryllup/js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="bryllup/js/main.js"></script>
+
+    <!-- KJ -->
+    <script src="bryllup/js/kj.js"></script>
+
+	<script>
+    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+
+    // default example 
+    simplyCountdown('.simply-countdown-one', {
+        year: 2022,
+        month: 5,
+        day: 26
+    });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	</body>
+</html>
+
