@@ -29,8 +29,8 @@ document.getElementById('hearIcon').style.height = '50px'
 //document.getElementById('arrowUp').style.marginTop = '10px'
 //document.getElementById('arrowUp').style.height = '30px'
 
-if(window.location.href == "https://kristian2890.github.io/bryllup/" && window.innerWidth >= 500 && !!document.getElementsByClassName('display-tc animate-box fadeIn animated-fast')[0].children[0]) {
-    document.getElementsByClassName('display-tc animate-box fadeIn animated-fast')[0].children[0].style.marginBottom = "250px"
+if((window.location.href == "https://kristian2890.github.io/bryllup/" || window.location.href == "https://kristian2890.github.io/bryllup/index.html") && window.innerWidth >= 500) {
+    document.getElementsByTagName('h1')[0].style.marginBottom = '250px'
 }
 
 setInterval(function() {
