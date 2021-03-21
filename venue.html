@@ -269,9 +269,12 @@ for (i=0;i<9;i++) {
     document.getElementsByClassName('accordion-header')[i].setAttribute('style', "font-size:12px;font-weight: normal; padding-left: 10px; color:rgb(0, 0, 0);" ) 
 }
 
-document.getElementById('embeddedMap').style.display = 'none'
+
 }
 
+if(window.innerWidth < 500) {	
+document.getElementById('embeddedMap').style.display = 'none'	
+}
 if(window.innerWidth >= 500) {
 document.getElementById('embeddedMap_mobile').style.display = 'none'	
 }
